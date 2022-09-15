@@ -1,0 +1,112 @@
+@media (min-width: 10px) and (max-width: 13350px) {
+body {     
+    width: 320px;   
+    height: 1024px;
+    /* box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2); */ 
+    /* не получается сделать плавную тень */
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+    margin: 0;
+}
+@font-face {
+    font-family: "TT Lakes Extra Light";
+    font-style: normal;
+    font-weight: normal;
+    src: url(/TTLakes/TTLakes-ExtraLight.ttf);
+}
+
+header {
+    padding-top: 23px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.search-wrapper {
+    margin-left: 70px;
+    background-color: #FF3E79;
+    border-radius: 100%;
+    padding: 10px 12px;
+}
+
+.logo-wrapper {
+    margin-left: 16px;
+    
+}
+.cross-wrapper {
+    margin-left: 10px;
+    background-color: #FF3E79;
+    border-radius: 100%;
+    padding: 10px 12px;
+    
+}
+ul {
+    margin-top: 30px;
+    list-style: none;
+    /* border: 2px black solid transparent; */
+    
+}
+li {
+    margin-top: 30px;
+    padding: 5px 0 5px 15px;
+    margin-left: -14%;
+}
+ul :hover {
+    color: #7E7E82;
+    cursor: pointer;
+    border-left: solid 3px #41F6D7;
+    border-radius: 2px;
+   
+
+}
+
+.img-wrapper-footer{
+    margin-top: 268px;
+    margin-left: 24px;
+    
+
+}
+.img-wrapper-footer button {
+    background-color: #FF3E79;
+    border-radius: 100%;
+    padding: 10px 12px;
+    margin: 10px;
+    
+    
+    
+}
+
+.text-wrapper-footer {
+    margin-left: 24px;
+}
+.phone-footer {
+font-size: 24px;
+line-height: 32px;
+margin-left: 24px;
+font-weight: 900;
+margin-top: 10px;
+}
+.language-selection {
+    display: flex;
+    margin-left: 18px;
+}
+.language {
+    margin-top: 40px;
+    padding-left: 7px;
+}
+.language-selection :hover {
+    /* color:gray; */
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+}
